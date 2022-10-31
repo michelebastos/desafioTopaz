@@ -1,0 +1,174 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-10-31T12:18:08.682Z",
+    "end": "2022-10-31T12:18:48.501Z",
+    "duration": 39819,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "42296742-b4e9-440c-a2c8-bcefb80ab83e",
+      "title": "",
+      "fullFile": "C:\\Users\\USER\\OneDrive\\Documentos\\TOPAZ\\DesafioTopaz\\features\\calculo_soma.feature",
+      "file": "\\features\\calculo_soma.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "6d1d0f98-0404-40b1-a7ed-d4357b66b590",
+          "title": "Calculadora",
+          "fullFile": "C:\\Users\\USER\\OneDrive\\Documentos\\TOPAZ\\DesafioTopaz\\features\\calculo_soma.feature",
+          "file": "\\features\\calculo_soma.feature",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite in \"Calculadora\"",
+              "fullTitle": "Calculadora \"before all\" hook: codeceptjs.beforeSuite in \"Calculadora\"",
+              "timedOut": false,
+              "duration": 2,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteSetup(suite)",
+              "err": {},
+              "uuid": "5e99747e-4852-45fe-b4cf-992be5ecb885",
+              "parentUUID": "6d1d0f98-0404-40b1-a7ed-d4357b66b590",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before in \"Calculadora\"",
+              "fullTitle": "Calculadora \"before each\" hook: codeceptjs.before in \"Calculadora\"",
+              "timedOut": false,
+              "duration": 23773,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.setup(suite)",
+              "err": {},
+              "uuid": "87f0134f-2c0f-485f-9b8b-6c8976e6c176",
+              "parentUUID": "6d1d0f98-0404-40b1-a7ed-d4357b66b590",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite in \"Calculadora\"",
+              "fullTitle": "Calculadora \"after all\" hook: codeceptjs.afterSuite in \"Calculadora\"",
+              "timedOut": false,
+              "duration": 1,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteTeardown(suite)",
+              "err": {},
+              "uuid": "26421b9e-4428-4d67-afad-81bed497a099",
+              "parentUUID": "6d1d0f98-0404-40b1-a7ed-d4357b66b590",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: codeceptjs.after in \"Calculadora\"",
+              "fullTitle": "Calculadora \"after each\" hook: codeceptjs.after in \"Calculadora\"",
+              "timedOut": false,
+              "duration": 348,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.teardown(suite)",
+              "err": {},
+              "uuid": "6389ece6-d9af-4ea9-9408-146e2277e8bc",
+              "parentUUID": "6d1d0f98-0404-40b1-a7ed-d4357b66b590",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "valida a soma de 10 + 20",
+              "fullTitle": "Calculadora valida a soma de 10 + 20",
+              "timedOut": false,
+              "duration": 15688,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "runSteps(child.steps)",
+              "err": {},
+              "uuid": "8a143ec0-6f7a-4fba-b220-b12ce797f50f",
+              "parentUUID": "6d1d0f98-0404-40b1-a7ed-d4357b66b590",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "8a143ec0-6f7a-4fba-b220-b12ce797f50f"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 15688,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 0
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "8.1.3"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {},
+      "version": "6.2.0"
+    }
+  }
+}
